@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    list-style-type: none;
+    background-image: url("https://github.com/ChristophGrothe/coffee/blob/main/golden-film-darker1.jpg?raw=true");
+    color: #f7e98e;
+    text-align: center;
+    font-family:'Raleway', sans-serif;;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 6em;
+    width: auto;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin-left: 1em;
+    color: transparent;
+    background-image: linear-gradient(to right,#f8d01f 40%, #ffffff 50%, #f8d01f 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Parisienne', cursive;
+}
+
+ul {
+    display: flex;
+    margin-left: 10em;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 1em;
+}
+
+img {
+    border-radius: 2em;
+}
+
+.hero {
+    display: grid;
+    grid-template: 1fr 0.5fr 0.75fr / 1fr 1fr 1fr 1fr 1fr;
+}
+
+h1 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    /*font-family: 'Abril Fatface', cursive;*/
+    font-family: 'Parisienne', cursive;
+    text-transform: uppercase;
+    font-size: 7em;
+    color: transparent;
+    background-image: linear-gradient(to right, #462523 0, #462523 5%, #f8961f 25%, #f8d01f 40%, #ffffff 50%, #f8d01f 60%, #f8961f 75%, #462523 95%, #462523 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+.enjoy {
+    text-transform: uppercase;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.perfect-place {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+.heighest-quality {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+
+.quality {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    margin-top: 4em;
+}
+
+.quality-coffee {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    font-size: 1.25em;
+    margin-left: 1em;
+}
+
+.circle {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    font-size: 2.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+
+.plantation {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    align-self: end;
+    justify-self: center;
+    position: relative;
+    top: 2em;
+    border-radius: 50%;
+}
+
+.p-plantation {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    align-self: center;
+    justify-self: start;
+    margin-top: 6em;
+    position: relative;
+    right: 2em;
+    width: 50%;
+}
+
+.friends {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    justify-self: center;
+    align-self: end;
+    margin-left: 2em;
+    border-radius: 50%;
+}
+
+.p-friends {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    align-self: end;
+    justify-self: center;
+    position: relative;
+    top: 4em;
+    left: 3em;
+   width: 50%;
+}
+
+.roastery {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    justify-self: center;
+    align-self: end;
+    border-radius: 50%;
+}
+
+.p-roastery {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    align-self: center;
+    position: relative;
+    left: 18em;
+    width: 40%;
+    margin-top: 2em;
+}
+
+.arrow {
+    border: solid #f7e98e;
+    border-width: 0 0.2em 0.2em 0;
+    display: inline-block;
+    padding: 1em;
+    width: 0.1%;
+    height: 0.12%;
+}
+
+.first {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    justify-self: end;
+    transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+    position: relative;
+    left: 1em;
+    margin-top: 1em;
+} 
+
+.second {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    align-self: end;
+    position: relative;
+    right: 2em;
+    top: 4em;
+} 
+
+.third {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    justify-self: center;
+    align-self: center;
+} 
+
+.color {
+    color: white;
+    font-size: 1.25em;
+}
+
+.livingroom {
+    margin-top: 3em;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+}
+
+.room {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.room-intro {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin-top: 6em;
+}
