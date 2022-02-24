@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    list-style-type: none;
+    background-image: url("https://github.com/ChristophGrothe/coffee/blob/main/golden-film-darker1.jpg?raw=true");
+    color: #f7e98e;
+    text-align: center;
+    font-family:'Raleway', sans-serif;;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 4em;
+    margin-bottom: 3em;
+    width: auto;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin-left: 1em;
+    color: transparent;
+    background-image: linear-gradient(to right,#f8d01f 40%, #ffffff 50%, #f8d01f 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Parisienne', cursive;
+}
+
+ul {
+    display: flex;
+    margin-left: 10em;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 1em;
+}
+
+img {
+    border-radius: 1em;
+}
+
+.hero {
+    display: grid;
+    grid-template: 1fr 0.3fr 0.6fr / 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 2em;
+}
+
+h1 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-family: 'Parisienne', cursive;
+    text-transform: uppercase;
+    font-size: 7em;
+    color: transparent;
+    background-image: linear-gradient(to right, #462523 0, #462523 5%, #f8961f 25%, #f8d01f 40%, #ffffff 50%, #f8d01f 60%, #f8961f 75%, #462523 95%, #462523 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+h2 {
+    color:white;
+}
+
+.enjoy {
+    text-transform: uppercase;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-size: 2.5em;
+    font-weight: 300;
+    color: white;
+}
+
+.perfect-place {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    background-color: black;
+    align-self: center;
+}
+
+.gold {
+    color: transparent;
+background-image: linear-gradient(to right, #75552e 0, #cb9551 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #c59b51 78%, #75552e 100%);
+-webkit-background-clip: text;
+background-clip: text;
+}
+
+.heighest-quality {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+
+.quality-coffee {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    font-size: 1.25em;
+    margin-left: 1em;
+}
+
+.quality {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    margin-top: 6em;
+}
+
+.circle {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    font-size: 2.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+
+.plantation {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    align-self: end;
+    justify-self: center;
+    position: relative;
+    top: 2em;
+    border-radius: 50%;
+}
+
+.p-plantation {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    align-self: center;
+    justify-self: start;
+    margin-top: 6em;
+    position: relative;
+    right: 2em;
+    width: 50%;
+}
+
+.friends {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    justify-self: center;
+    align-self: end;
+    margin-left: 2em;
+    border-radius: 50%;
+}
+
+.p-friends {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    align-self: end;
+    justify-self: center;
+    position: relative;
+    top: 4em;
+    left: 3em;
+   width: 50%;
+}
+
+.roastery {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    justify-self: center;
+    align-self: end;
+    border-radius: 50%;
+}
+
+.p-roastery {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    align-self: center;
+    position: relative;
+    left: 18em;
+    width: 40%;
+    margin-top: 2em;
+}
+
+.arrow {
+    border: solid #f7e98e;
+    border-width: 0 0.2em 0.2em 0;
+    display: inline-block;
+    padding: 1em;
+    width: 0.1%;
+    height: 0.12%;
+}
+
+.first {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    justify-self: end;
+    transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+    position: relative;
+    left: 1em;
+    margin-top: 1em;
+} 
+
+.second {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    align-self: end;
+    position: relative;
+    right: 2em;
+    top: 4em;
+} 
+
+.third {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    justify-self: center;
+    align-self: center;
+} 
+
+.color {
+    font-size: 1.25em;
+    color: transparent;
+background-image: linear-gradient(to right, #75552e 0, #cb9551 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #c59b51 78%, #75552e 100%);
+-webkit-background-clip: text;
+background-clip: text;
+}
+
+.black {
+    background-color: black;
+    padding: 0.25em;
+    transform: rotate(30deg);
+}
+
+.livingroom {
+    margin-top: 3em;
+    display: grid;
+    grid-template: 0.75fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+}
+
+.room {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.laptop {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    margin-left: 6em;
+}
+
+.p-laptop {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: end;
+    position: relative;
+    left: 5em;
+    top: 1em;
+}
+
+.group {
+    grid-row-start: 2;
+    grid-column-start: 4;
+    align-self: end;
+    position: relative;
+    top: 6em;
+}
+
+.p-group {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    position: relative;
+    z-index: 10;
+}
+
+.book {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    position: relative;
+    top: 2em;
+}
+
+.p-book {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    align-self: end;
+    margin-bottom: 3em;
+    position: relative;
+    z-index: 10;
+}
+
+.long-table {
+    grid-row-start: 4;
+    grid-column-start: 4;
+}
+
+.p-long-table {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin-top: 2.5em;
+    position: relative;
+    right: 1em;
+}
+
+.p-earplugs {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin-top: 4em;
+    position: relative;
+    right: 7em;
+}
+
+.p-comfortable {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-self: center;
+    margin-right: 6em;
+    margin-top: 2em;
+    position: relative;
+    z-index: 10;
+    line-height: 1.5em;
+}
+
+.comfortable1 {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    position: relative;
+    right: 4em;
+    align-self: end;
+    top: 5em;
+}
+
+.p-lovely {
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    position: relative;
+    z-index: 10;
+    margin-top: 2em;
+}
+
+.p-lovely1 {
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    position: relative;
+    z-index: 10;
+    margin-top: 3.5em;
+    margin-left: 2em;
+}
+
+.lovely {
+    grid-row-start: 5;
+    grid-column-start: 4;
+    position: relative;
+    right: 3em;
+}
+
+.happy {
+    font-size: 2.5em;
+    font-weight: 300;
+    margin-top: 1em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.happy1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    background-color: black;
+    display: inline;
+    font-family: 'Dancing Script', cursive;
+}
+
+.gold {
+    color: transparent;
+background-image: linear-gradient(to right, #75552e 0, #cb9551 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #c59b51 78%, #75552e 100%);
+-webkit-background-clip: text;
+background-clip: text;
+}
+
+footer {
+    margin-top: 6em;
+    padding-top: 2em;
+    padding-bottom:2em;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    background-image: url("https://github.com/ChristophGrothe/coffee/blob/main/woodpattern1.jpg?raw=true");
+    color: black;
+    font-size: 0.9em;
+}
+
+footer ul {
+    display: grid;
+    width: 100%;
+    text-align: initial;
+    margin: 0;
+    padding: 0;
+}
+
+.ul1 {
+    grid-column-start: 2;
+}
+
+.ul2 {
+    grid-column-start: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    position: relative;
+    top: 2em;
+}
+
+.registration {
+    position: relative;
+    bottom: 0.5em;
+}
+
+
